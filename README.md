@@ -1,11 +1,17 @@
 # PCO003 – Lab 2: Criando seu primeiro kernel
 
 ```
-parte2/   itens 1 e 2: kernel round-robin (fila circular) e 4 processos
+parte1/   item 1: kernel.h e kernel.c do enunciado (sem main, não gera executável)
+parte2/   item 2: kernel do item 1 + main.c com os 4 processos (round-robin)
 parte3/   item 3: kernel com campo priority e escalonamento por prioridade
 ```
 
-Antes de compilar, edite `MEU_NOME` e `MINHA_MATRICULA` no `main.c` de cada parte.
+A `parte1` só compila como objeto, para conferir que não há erros:
+
+```sh
+cd parte1
+cc -Wall -c kernel.c
+```
 
 ## Compilar e executar
 
